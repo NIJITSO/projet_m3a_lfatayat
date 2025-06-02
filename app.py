@@ -144,7 +144,7 @@ def get_top_predictions(prediction, index_to_specialty, top_k=5):
 SAMPLE_TRANSCRIPTS = {
     "Cardiovascular, Pulmonary": """Patient presents with chest pain radiating to left arm. ECG shows ST elevation in leads II, III, aVF. Troponin levels elevated at 2.5 ng/mL. Patient has history of hypertension and diabetes. Recommend cardiac catheterization and initiate dual antiplatelet therapy.""",
     
-    "Surgery": """Patient presents with erythematous, scaly plaques on bilateral knees and elbows. Lesions are well-demarcated with silvery scale. Patient reports pruritus and family history of psoriasis. Recommend topical corticosteroids and consider systemic therapy if no improvement.""",
+    "Surgery": """Patient presents with erythematous, scaly plaques on bilateral knees and elbows. Lesions are well-demarcated with silvery scale. Patient reports pruritus and a family history of psoriasis. Due to severity and resistance to medical management, surgical intervention is required. Recommend immediate referral to dermatologic surgery for excision and further evaluation.""",
     
     "Gastroenterology": """A 50-year-old female whose 51-year-old sister has a history of multiple colon polyps, which may slightly increase her risk for colon cancer in the future.""",
     
